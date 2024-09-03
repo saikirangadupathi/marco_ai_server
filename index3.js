@@ -4,7 +4,7 @@ const axios = require('axios');
 const OpenAI = require('openai');
 
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: "sk-proj-3s18DRXqj4mjgTtVT2NqT3BlbkFJuhIuD6AqrOIO71CKdyHJ",
   });
 
 const app = express();
