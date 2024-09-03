@@ -113,10 +113,11 @@
     "yamljs": "^0.3.0"
   },
   "scripts": {
-    "start": "nodemon  index3.js",
-    "dev": "nodemon index3.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "nodemon index3.js",
+  "dev": "nodemon index3.js",
+  "build": "echo 'Building the project...' && node index3.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "author": "",
   "license": "ISC",
   "description": "",
