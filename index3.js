@@ -12,7 +12,9 @@ const port = 8080;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(require("cors")());
+const cors = require('cors');
+
+app.use(cors()); // Using CORS with default settings
 
 function preprocessCurlCommand(curlCommand) {
     // Remove extra backslashes and unnecessary characters
